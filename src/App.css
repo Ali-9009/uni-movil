@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.mySwiper {
+    padding-top: 10px;
+}
+
+.mySwiper .swiper-pagination {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mySwiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: black;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active-btn {
+    background-color: white;
+    border-radius: 8px;
+    color: var(--primary-color);
+}
+
+.active-btn svg {
+    color: var(--primary-color);
+}
